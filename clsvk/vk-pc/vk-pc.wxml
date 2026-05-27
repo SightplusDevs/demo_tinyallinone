@@ -1,0 +1,7 @@
+
+<clsclient 
+wxapi="{{wxapi}}" 
+maxFps="{{30}}"
+bind:loadPC="onLoadPC"
+enableAR="{{false}}"
+/>

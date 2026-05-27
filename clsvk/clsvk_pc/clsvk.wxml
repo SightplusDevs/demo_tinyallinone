@@ -1,0 +1,21 @@
+<view style="position: relative; width: 100vw; height: 100vh; overflow: hidden;">
+  <clsclient
+    wx:if="{{show}}" 
+    includePerf="{{true}}" 
+    wxapi="{{wxapi}}" 
+    clsConfig="{{clsConfig}}" 
+    auto-locate="{{false}}" 
+    maxFps="{{30}}" 
+    bind:load="onClsClientLoad" 
+    bind:loadPC="onLoadPC"
+    bind:loadEMA="onLoadEMA"
+    bind:loadCamera="onLoadCamera"
+    bind:result="onClsClientResult" 
+    bind:error="onClsClientError" 
+    debug="{{debug}}" 
+    running="{{running}}" 
+    minInterval="{{minInterval}}"
+    multiMapSetting="{{multiMapSetting}}"
+    blacklist="{{blackList}}"
+    />
+</view>

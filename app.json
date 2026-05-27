@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "subPackages": [
+    {
+      "root": "engine",
+      "pages": [],
+      "plugins": {
+        "SPAREngine": {
+          "version": "2.3.2",
+          "provider": "wxd30c5bb763657005"
+        }
+      }
+    },
+    {
+      "root": "easyarcore",
+      "pages": [],
+      "plugins": {
+        "easyar-core": {
+          "version": "1.1.0",
+          "provider": "wx6dcdfd3e88bfde56"
+        }
+      }
+    },
+    {
+      "root": "clsvk",
+      "pages": [
+        "clsvk_pc/clsvk",
+        "clsvk_pc_nav/clsvk_nav",
+        "vk-pc/vk-pc"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "plugins": {
+    "SPARPlugin": {
+      "version": "2.9.70",
+      "provider": "wx513725758120fb69"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "onLocationChange",
+    "startLocationUpdate"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于AR的场景识别功能"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

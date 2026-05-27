@@ -1,0 +1,19 @@
+.hint {
+  position: absolute;
+  left: 0;
+  top: 0rpx;
+}
+
+.hint1 {
+  line-height: 30rpx;
+  font-size: 24rpx;
+  color: gray;
+  width: fit-content;
+}
+
+.hint2 {
+  line-height: 30rpx;
+  font-size: 24rpx;
+  color: blue;
+  width: fit-content;
+}

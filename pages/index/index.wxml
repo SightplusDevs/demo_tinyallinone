@@ -1,0 +1,11 @@
+<view style="position:relative;padding-bottom:80rpx;">
+  <navigator wx:for="{{pages}}" wx:key="url" url="/{{item.url}}" style="margin: 10rpx;">
+    <button type="primary">
+      <view class="hint">
+        <view wx:if="{{item.hint}}" class="hint1">[{{item.hint}}]</view>
+        <view wx:if="{{item.use}}" class="hint2">({{item.use}})</view>
+      </view>
+      {{item.name}}
+    </button>
+  </navigator>
+</view>
