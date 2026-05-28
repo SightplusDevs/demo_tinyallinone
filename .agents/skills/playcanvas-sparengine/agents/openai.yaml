@@ -1,0 +1,4 @@
+interface:
+  display_name: "PlayCanvas SPAREngine"
+  short_description: "按 PlayCanvas v1.77 编写 SPAREngine 3D 代码"
+  default_prompt: "Use $playcanvas-sparengine to write PlayCanvas v1.77.0 code for this SPAREngine Mini Program sample."

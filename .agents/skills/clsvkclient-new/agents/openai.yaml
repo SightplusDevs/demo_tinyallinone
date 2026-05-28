@@ -1,0 +1,4 @@
+interface:
+  display_name: "CLS/VK 组件"
+  short_description: "接入 spar-clsvkclient-new 定位、AR 与事件"
+  default_prompt: "Use $clsvkclient-new to wire CLS localization events in this Mini Program sample."

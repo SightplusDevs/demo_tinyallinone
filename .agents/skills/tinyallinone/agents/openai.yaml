@@ -1,0 +1,4 @@
+interface:
+  display_name: "tinyallinone"
+  short_description: "使用 tinyallinone 加载 AR、导航与 3D 内容"
+  default_prompt: "Use $tinyallinone to add a tinyApp or navigation flow to this SPARPlugin sample."

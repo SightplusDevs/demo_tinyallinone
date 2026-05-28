@@ -1,0 +1,4 @@
+interface:
+  display_name: "SPAR 小程序基础"
+  short_description: "维护 SPAR 小程序页面、配置、权限与生命周期"
+  default_prompt: "Use $spar-miniprogram-basics to update a WeChat Mini Program page in this SPARPlugin sample."
